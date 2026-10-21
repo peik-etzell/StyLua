@@ -41,7 +41,7 @@ cfg-if = "1.0.0"
 clap = { version = "3.1.6", features = ["derive"] }
 console = "0.15.7"
 crossbeam-channel = "0.5.15"
-ec4rs = { version = "1.0.2", optional = true }
+ec4rs = { version = "1.2.0", features = ["allow-empty-values"], optional = true }
 env_logger = { version = "0.10.0", default-features = false }
 full_moon = "3.0.0"
 globset = "0.4.13"
